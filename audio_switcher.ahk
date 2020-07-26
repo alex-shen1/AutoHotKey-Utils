@@ -1,9 +1,4 @@
-﻿#Persistent			; This keeps the script running permanently.
-#SingleInstance		; Only allows one instance of the script to run.
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Win+A to change Audio Playback Device
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+﻿#SingleInstance		; Only allows one instance of the script to run.
 
 #a::
 	toggle:=!toggle ; This toggles the variable between true/false
