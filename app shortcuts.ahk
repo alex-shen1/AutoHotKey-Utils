@@ -17,3 +17,11 @@ If WinExist("ahk_exe SndVol.exe")
 WinMove, ahk_exe SndVol.exe,, 1362, 568                 ;     <<-- NOTE need another "," 
 Return
 
+#x:: ;opens sound devices
+
+Run C:\Windows\System32\mmsys.cpl
+WinWait, ahk_class #32770
+If WinExist("ahk_class #32770")
+	WinActivate, ahk_class #32770
+Return
+
