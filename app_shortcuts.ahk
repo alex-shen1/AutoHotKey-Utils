@@ -14,7 +14,7 @@ Run C:\Windows\System32\SndVol.exe
 WinWait, ahk_exe SndVol.exe
 If WinExist("ahk_exe SndVol.exe")  
     WinActivate, ahk_exe SndVol.exe
-WinMove, ahk_exe SndVol.exe,, 1362, 568                 ;     <<-- NOTE need another "," 
+WinMove, ahk_exe SndVol.exe,, 1438, 698                 ;     <<-- NOTE need another "," 
 Return
 
 #x:: ;opens sound devices
