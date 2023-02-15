@@ -3,17 +3,4 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-
-::(shrug)::¯\_(ツ)_/¯
-
-::(theta)::θ
-
-::---::—
-
-::(thinking)::🤔
-
-::(wheelchair)::♿
-
-::(tm)::™
-
-::ok::okay
+^SPACE::  Winset, Alwaysontop, , A
